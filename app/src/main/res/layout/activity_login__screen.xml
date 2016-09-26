@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.engab.edumeapp.Login_Screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/edume"
+        android:id="@+id/imageView"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_mail"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#00b990"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="40dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l_pass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#00b990"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SIGN IN"
+        android:id="@+id/login_button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/butt"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff" />
+
+
+
+</LinearLayout>
